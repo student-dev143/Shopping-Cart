@@ -1,0 +1,258 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 600px;
+    width: 600px;
+     background-color: #FFE2E2;
+}
+h1{
+    font-size: 1.85rem;
+      white-space: nowrap;
+    margin-left: 45vw;
+    margin-top: 2vh;
+       font-family: "Poppins", sans-serif;
+        color: #c026d3;
+    text-shadow: 0 4px 12px rgba(192, 38, 211, 0.3);
+}
+i{
+    font-weight: 100;
+    font-size: larger;
+}
+.container{
+    height: 90%;
+    width:200%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    margin-left: 6vw;
+    margin-top: 8vh;
+}
+
+
+.container1{
+ background-color: #d48e8e;
+ height: 70vh;
+ width: 60vw;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+
+}
+.heading{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2.5vh;
+}
+.items{
+    height: 45vh;
+    width: 28vw;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: inline-block;
+    margin-top: 5vh;
+    text-align: center;
+   
+}
+.items p{
+    color: #5B355B;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.teddyBear{
+    height: 9vh;
+    width: 28vw;
+    border: 1px solid #5B355B ;
+    padding: 15px;
+  display: flex;
+    justify-content: space-between;
+align-items: center;
+   
+  
+}
+.flower{
+    height:9vh;
+   width: 28vw;
+    border: 1px solid #5B355B ;
+    padding: 15px;
+     display: flex;
+     justify-content: space-between;
+align-items: center;
+}
+.perfume{
+    height:9vh;
+    width: 28vw;
+    padding: 15px;
+     display: flex;
+     justify-content: space-between;
+align-items: center;
+  border: 1px solid #5B355B ;
+}
+.mobile{
+    height:9vh;
+    width: 28vw;
+    padding: 15px;
+     display: flex;
+      justify-content: space-between;
+align-items: center;
+  border: 1px solid #5B355B ;
+}
+.headphone{
+    height:9vh;
+     width: 28vw;
+    padding: 15px;
+     display: flex;
+  justify-content: space-between;
+align-items: center;
+  border: 1px solid #5B355B ;
+}
+.teddyBear:hover,
+.flower:hover,
+.perfume:hover,
+.mobile:hover,
+.headphone:hover{
+    border-color: #9b4dd6;
+    background: #eca4a4;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(155,77,214,.18);
+}
+
+.container2{
+    height: 70vh;
+ width: 60vw;
+    background-color: #b791d4 ;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+    
+}
+h3{
+    text-align: center;
+    margin-top: 1.5vh;
+    font-size: 1.9rem;
+}
+input{
+    height: 5vh;
+    width: 15vw;
+    margin-left: 1.1vw;
+    margin-top: 2vh;
+    padding: 8px;
+    border-radius: 5.5px;
+       border: 2px solid #E9C7F8;
+    background: white;
+}
+
+input:focus{
+    outline: none;
+    border-color: #9B4DD6;
+    box-shadow: 0 0 10px rgba(155,77,214,.25);
+}
+
+button{
+    height: 5vh;
+    width: 8vw;
+    margin-top: 2vh;
+     border-radius: 100px;
+     transition: all 0.5s;
+       -webkit-transition: all 0.5s;
+       font-weight: Bold;
+       background-color:#9b4dd6;
+      border-radius: 5.5px;
+      border: 1PX solid;
+      cursor: pointer;
+}
+button:hover {
+  background-color: #9b4dd6;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+  border: none;
+}
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container3{
+    background-color: #d48e8e;
+    height: 70vh;
+ width: 60vw;
+ border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,.15);
+   display: flex;
+   /* justify-content: center; */
+   flex-direction: column;
+
+}
+h4{
+    text-align: center;
+    font-size:1.9rem;
+    margin-top: 1vh;
+}
+.your-cart{
+    margin-top: 3vh;
+    margin-left: 2vw;
+    height: 40vh;
+ width: 22vw;
+ border-radius: 18px;
+     background: #fcdcec;
+    border: 4px dashed #F0C7E8;
+    border-radius: 12px; 
+    color: #5B355B;
+    line-height: 32px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#searchList{
+    margin-top: 20vh;
+    height: 28vh;
+    width: 22vw;
+    margin-left: 2vw;
+    text-align: center;
+    font-size: 1.25rem;
+     background:#bd78f2;
+    border: 3px dashed #D8A9F1;
+    border-radius: 12px;
+
+    color: #5B355B;
+    font-size: 18px;
+    line-height: 35px
+
+}
+#totalPrice{
+    height: 8vh;
+    width: 19vw;
+    background-color: #fabfdd;
+    text-align: center;
+    margin-top: 2vh;
+    margin-left: 3.5vw;
+    border-radius: 10px;
+}
+.expensive{
+    height: 4vh;
+    width: 10vw;
+    margin-left: 3vw;
+}
+.discount{
+    height: 4vh;
+    width: 10vw;
+}
+.btn{
+    background-color: #ca7f7f;
+    border: none;
+    border: 1px solid purple ;
+}
+.btn:hover {
+  background-color: #ce8080;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+  border: none;
+}

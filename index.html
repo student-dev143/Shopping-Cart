@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css">
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+</head>
+<body>
+     <h1>🛍️Shopping Cart</h1>
+    <div class="container">
+    <div class="container1">
+        <div class="heading">
+        <h2>Product
+            Price
+            Action
+        </h2>
+    </div>
+    <div class="items">
+    <div class="teddyBear">
+        <P>Teddy Bear</P> 
+        <P>4000</P>
+        <button class="btn"> Add</button>
+    </div>
+      <div class="flower">
+        <P>flower Bouquet</P> 
+        <P>5000</P>
+        <button class="btn"> Add</button>
+        
+    </div>
+      <div class="perfume">
+        <P>Perfume</P> 
+        <P>1000</P>
+        <button class="btn"> Add</button>
+    </div>
+      <div class="mobile">
+        <P>Mobile</P>  <P> 33000</P>
+       
+        <button class="btn"> Add</button>
+    </div>
+      <div class="headphone">
+        <P>Headphone</P> 
+        <P>3000</P>
+        <button class="btn"> Add</button>
+    </div>
+      </div>  
+        
+    </div>
+    <div class="container2">
+          <h3>Search Product </h3>
+          <span>
+        <input type="text" placeholder="Enter Product">
+        <button id="Search" >Search</button>
+        </span>
+        <button class="expensive">Show Expensive</button>  <button class="discount">Show Discount</button>
+         <div id="searchList"></div>
+    </div>
+    
+    
+    <div class="container3">
+        <h4>Your Cart</h4>
+        <div class="your-cart"></div>
+        <span id="totalPrice">Total Price</span>
+     </div>
+    </div>
+</body>
+<script src="cart.js"></script>
+</html>
